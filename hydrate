@@ -1,0 +1,11 @@
+from time import sleep
+from plyer import notification
+
+while True:
+  notification.notify(
+  title = "please drink a glass of water!",
+  message = "Its important to stay hydrated throughout the day",
+  app_icon = "GOW.ico",
+  timeout = 60 
+)
+sleep(60)
